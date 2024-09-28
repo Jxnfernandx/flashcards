@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, Avenir, Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+th {
+  width: 120px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+td {
+  padding: 5px;
+}
+
+.time {
+  height: 40px;
+}
+
+.Event {
+  width: 100px;
+}
+
+.Event h5, h6 {
+  line-height: 0px;
+  align-content: center;
+}
+
+.pink {
+  background-color: #ff7eb9;
+}
+
+.blue {
+  background-color: #7eb9ff;
+}
+
+.green {
+  background-color: #7effb9;
+}
