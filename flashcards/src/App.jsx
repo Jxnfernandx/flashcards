@@ -6,8 +6,11 @@ import cardInfo from "./assets/cardInfo.js";
 function Flashcard({card, flip, onClick}) {
     return (
         <>
+            <h1>Art Cards</h1>
+            <h2>Can you guess the name of the painting?</h2>
             <div className="card"
-                 onClick={onClick}>{flip ? card.back : card.front}
+                 onClick={onClick}>{flip ? card.back : (<img src={card.front} />)}
+
             </div>
         </>
     )
@@ -36,8 +39,10 @@ function App() {
         <Flashcard card={currentCard}
                    flip={flip}
                    onClick={flipCard} />
-        <Button onClick={handleClickLeft}/>
-        <Button onClick={handleClickRight}/>
+        <Button onClick={handleClickLeft}
+                arrow={"LEFT"}/>
+        <Button onClick={handleClickRight}
+                arrow={"RIGHT"}/>
 
     </>
   )

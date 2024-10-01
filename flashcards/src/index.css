@@ -42,7 +42,11 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-  color: #1a1a1a;
+  color: deeppink;
+}
+
+h2 {
+  color: #fdf900;
 }
 
 button {
@@ -52,7 +56,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #fdf;
   cursor: pointer;
   transition: border-color 0.25s;
 }
