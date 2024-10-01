@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![](https://imgur.com/gallery/flashcards-xWnzUvx)
+![](src/assets/work.gif)
 
 
 
